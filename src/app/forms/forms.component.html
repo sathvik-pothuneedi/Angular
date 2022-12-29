@@ -2,14 +2,18 @@
 
 <h1>Welcome to Forms</h1>
 
-<form>
+<form #userForm="ngForm">
     <div class="form-inline">
         <label>USERNAME : </label>
-        <input type="text" class="form-control">
+        <input type="text" class="form-control" required name="username" #username="ngModel" ngModel>
+        <br>
+        <span *ngIf="username.invalid && username.touched" style="color: red;">UserName is Required*</span>
     </div>
     <div class="form-inline">
         <label>PASSWORD : </label>
-        <input type="text" class="form-control">
+        <input type="text" class="form-control" required name="password" #password="ngModel" ngModel>
+        <br>
+        <span *ngIf="password.invalid && password.touched" style="color: red;">Password is Required*</span>
     </div>
     <br>
     <div>

@@ -10,6 +10,7 @@ import { RegisterComponent } from './register/register.component';
 import { BindingComponent } from './binding/binding.component';
 import { DirectiveComponent } from './directive/directive.component';
 import { FormsComponent } from './forms/forms.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,11 +21,13 @@ import { FormsComponent } from './forms/forms.component';
     RegisterComponent,
     BindingComponent,
     DirectiveComponent,
-    FormsComponent
+    FormsComponent,
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
