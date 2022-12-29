@@ -10,7 +10,8 @@ import { RegisterComponent } from './register/register.component';
 import { BindingComponent } from './binding/binding.component';
 import { DirectiveComponent } from './directive/directive.component';
 import { FormsComponent } from './forms/forms.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule , ReactiveFormsModule } from '@angular/forms';
+import { ReactiveformComponent } from './reactiveform/reactiveform.component';
 
 @NgModule({
   declarations: [
@@ -22,12 +23,14 @@ import { FormsModule } from '@angular/forms';
     BindingComponent,
     DirectiveComponent,
     FormsComponent,
+    ReactiveformComponent,
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -6,6 +6,7 @@ import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
 import { DirectiveComponent } from './directive/directive.component';
 import { FormsComponent } from './forms/forms.component';
+import { ReactiveformComponent } from './reactiveform/reactiveform.component';
 
 const routes: Routes = [
 
@@ -37,6 +38,10 @@ component : DirectiveComponent
 {
   path : "forms",
   component : FormsComponent
+},
+{
+  path : "rforms",
+  component : ReactiveformComponent
 }
 ];
 
