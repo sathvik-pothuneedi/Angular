@@ -9,6 +9,7 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { RegisterComponent } from './register/register.component';
 import { BindingComponent } from './binding/binding.component';
 import { DirectiveComponent } from './directive/directive.component';
+import { FormsComponent } from './forms/forms.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { DirectiveComponent } from './directive/directive.component';
     GalleryComponent,
     RegisterComponent,
     BindingComponent,
-    DirectiveComponent
+    DirectiveComponent,
+    FormsComponent
   ],
   imports: [
     BrowserModule,

@@ -5,6 +5,7 @@ import { BindingComponent } from './binding/binding.component';
 import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
 import { DirectiveComponent } from './directive/directive.component';
+import { FormsComponent } from './forms/forms.component';
 
 const routes: Routes = [
 
@@ -32,6 +33,10 @@ component:LoginComponent
 path : "directive",
 
 component : DirectiveComponent 
+},
+{
+  path : "forms",
+  component : FormsComponent
 }
 ];
 
