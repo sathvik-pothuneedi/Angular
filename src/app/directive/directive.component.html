@@ -1,0 +1,13 @@
+
+
+<ul *ngFor="let list1 of arr">
+    <li>{{list1}}</li>
+</ul>
+<br>
+<ul *ngFor="let list2 of boys">
+    <li>{{list2}}</li>
+</ul>
+
+<input type="text" #boy>
+
+<input type="submit" value="Add Boys" (click)="add(boy.value)">

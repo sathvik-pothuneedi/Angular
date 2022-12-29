@@ -1,0 +1,39 @@
+
+<div align="center">
+<h1>
+    Welcome to Binding
+</h1>
+<br><br>
+First Name: 
+<input type="text" placeholder="firstname" #firstname>
+<br><br>
+Last Name:
+<input type="text" placeholder="lastname" #lastname>
+<br><br>
+<input type="submit" value="CLICK" (click)="abc(firstname.value,lastname.value)">
+<br><br>
+</div>
+<div style="text-align: center;">
+<h2>Simple Calculator</h2>
+principle:
+<input type="text" placeholder="principle" #p>
+<br><br>
+Time:
+<input type="text" placeholder="time" #t>
+<br><br>
+<select (change)="roi($event)">
+    <option>Lone Type </option>
+    <option value="home">HOME </option>
+    <option value="car">CAR </option>
+    <option value="persl">PERSONL  </option>
+    <option value="edu">EDU </option>
+</select><br><br>
+Rate Of Interest :<input type="text" value={{intrest}} disabled #r><br>
+<br><br>
+<input type="submit" value="CLICK" (click)="cal(p.value,t.value,r.value)">
+<br><br>
+Total Interest:<output type="text" value="{{total}}"></output>
+
+EMI:
+<output type="text" value="{{emi}}"></output>
+</div>
