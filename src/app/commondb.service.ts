@@ -7,7 +7,7 @@ export class CommondbService {
 
   constructor() { }
 commondbLogic(){
-  console.log("Hi 100 lines of code with service file")
+  alert("Hi 100 lines of code with service file")
 }
 
 }

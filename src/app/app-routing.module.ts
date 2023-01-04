@@ -9,6 +9,7 @@ import { FormsComponent } from './forms/forms.component';
 import { ReactiveformComponent } from './reactiveform/reactiveform.component';
 import { ServicedemoComponent } from './servicedemo/servicedemo.component';
 import { PipedemoComponent } from './pipedemo/pipedemo.component';
+import { EmployeeComponent } from './employee/employee.component';
 
 const routes: Routes = [
 
@@ -52,6 +53,10 @@ component : DirectiveComponent
 {
   path : "pipe",
   component : PipedemoComponent
+},
+{
+  path:'emp',
+  component : EmployeeComponent
 }
 ];
 
