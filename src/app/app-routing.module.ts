@@ -7,6 +7,8 @@ import { LoginComponent } from './login/login.component';
 import { DirectiveComponent } from './directive/directive.component';
 import { FormsComponent } from './forms/forms.component';
 import { ReactiveformComponent } from './reactiveform/reactiveform.component';
+import { ServicedemoComponent } from './servicedemo/servicedemo.component';
+import { PipedemoComponent } from './pipedemo/pipedemo.component';
 
 const routes: Routes = [
 
@@ -42,6 +44,14 @@ component : DirectiveComponent
 {
   path : "rforms",
   component : ReactiveformComponent
+},
+{
+  path : "service",
+  component : ServicedemoComponent
+},
+{
+  path : "pipe",
+  component : PipedemoComponent
 }
 ];
 

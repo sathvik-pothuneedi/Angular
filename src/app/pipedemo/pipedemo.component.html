@@ -1,0 +1,41 @@
+<div style="text-align: center;">
+<h1>Pipe Demo</h1>
+
+<h3>
+    {{amount | currency}}<br>
+    {{amount | currency:'INR'}}<br>
+    {{amount | currency:'JPY'}}<br>
+    {{amount | currency:'EUR'}}<br><br>
+
+
+    {{name}}<br>
+    {{name | uppercase}}<br>
+    {{name | lowercase}}<br>
+    {{name | titlecase}}<br><br>
+
+    {{d}}<br>
+    {{d | date}}<br>
+    {{d | date:'dd-MM-YYYY'}}<br>
+    {{d | date:'MM-dd-YYYY'}}<br>
+    {{d | date:'dd-MM-YY'}}<br>
+    {{d | date:'hh:mm:ss'}}<br><br>
+</h3>
+
+</div>
+<table class="table">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Salary</th>
+        <th>Desg</th>
+    </tr>
+    <tr>
+        <td>100</td>
+        <td>{{ 'Sathvik' | uppercase}}</td>
+        <td>19</td>
+        <td>{{80000 | currency:'INR'}}</td>
+        <td>Developer</td>
+    </tr>
+ 
+</table>

@@ -12,6 +12,11 @@ import { DirectiveComponent } from './directive/directive.component';
 import { FormsComponent } from './forms/forms.component';
 import { FormsModule , ReactiveFormsModule } from '@angular/forms';
 import { ReactiveformComponent } from './reactiveform/reactiveform.component';
+import { ServicedemoComponent } from './servicedemo/servicedemo.component';
+import { PipedemoComponent } from './pipedemo/pipedemo.component';
+import { A1Component } from './a1/a1.component';
+import { A2Component } from './a2/a2.component';
+import { A3Component } from './a3/a3.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +29,11 @@ import { ReactiveformComponent } from './reactiveform/reactiveform.component';
     DirectiveComponent,
     FormsComponent,
     ReactiveformComponent,
+    ServicedemoComponent,
+    PipedemoComponent,
+    A1Component,
+    A2Component,
+    A3Component,
 
   ],
   imports: [
